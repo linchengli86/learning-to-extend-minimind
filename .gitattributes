@@ -1,0 +1,3 @@
+* text=auto eol=lf
+minimind_ext/model_minimind.py -text
+tokenizer/*.json -text

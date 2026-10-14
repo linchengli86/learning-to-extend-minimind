@@ -1,0 +1,171 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split_seed": 42,
+  "checks": "matched settings, source hashes, torch/GPU and split indices; complete histories and test counts",
+  "standard_deviation": "sample standard deviation (ddof=1), across training seeds",
+  "runs": [
+    {
+      "name": "p4_d6_seed42",
+      "seed": 42,
+      "patch_size": 4,
+      "parameters": 2693578,
+      "tokens": 65,
+      "best_epoch": 30,
+      "validation_accuracy_pct": 75.52,
+      "test_accuracy_pct": 74.86,
+      "train_seconds": 43.744715728998926,
+      "session_seconds": 48.820669410999926,
+      "peak_allocated_gib": 0.8862085342407227
+    },
+    {
+      "name": "p8_d6_seed42",
+      "seed": 42,
+      "patch_size": 8,
+      "parameters": 2712010,
+      "tokens": 17,
+      "best_epoch": 29,
+      "validation_accuracy_pct": 67.32000000000001,
+      "test_accuracy_pct": 66.97999999999999,
+      "train_seconds": 27.436672429990722,
+      "session_seconds": 33.25973304500803,
+      "peak_allocated_gib": 0.28221797943115234
+    },
+    {
+      "name": "p4_d6_seed43",
+      "seed": 43,
+      "patch_size": 4,
+      "parameters": 2693578,
+      "tokens": 65,
+      "best_epoch": 28,
+      "validation_accuracy_pct": 75.36,
+      "test_accuracy_pct": 74.08,
+      "train_seconds": 43.9716347669746,
+      "session_seconds": 49.754466529993806,
+      "peak_allocated_gib": 0.8862085342407227
+    },
+    {
+      "name": "p8_d6_seed43",
+      "seed": 43,
+      "patch_size": 8,
+      "parameters": 2712010,
+      "tokens": 17,
+      "best_epoch": 30,
+      "validation_accuracy_pct": 68.5,
+      "test_accuracy_pct": 67.54,
+      "train_seconds": 27.138114218992996,
+      "session_seconds": 32.87486682200688,
+      "peak_allocated_gib": 0.28221797943115234
+    },
+    {
+      "name": "p4_d6_seed44",
+      "seed": 44,
+      "patch_size": 4,
+      "parameters": 2693578,
+      "tokens": 65,
+      "best_epoch": 30,
+      "validation_accuracy_pct": 75.92,
+      "test_accuracy_pct": 74.8,
+      "train_seconds": 44.22585797001375,
+      "session_seconds": 50.10293573400122,
+      "peak_allocated_gib": 0.8862085342407227
+    },
+    {
+      "name": "p8_d6_seed44",
+      "seed": 44,
+      "patch_size": 8,
+      "parameters": 2712010,
+      "tokens": 17,
+      "best_epoch": 30,
+      "validation_accuracy_pct": 67.66,
+      "test_accuracy_pct": 66.95,
+      "train_seconds": 27.430985135040828,
+      "session_seconds": 33.39581790100783,
+      "peak_allocated_gib": 0.28221797943115234
+    }
+  ],
+  "groups_by_patch": {
+    "4": {
+      "validation_accuracy_pct": {
+        "mean": 75.6,
+        "sample_std": 0.2884441020371209,
+        "minimum": 75.36,
+        "maximum": 75.92
+      },
+      "test_accuracy_pct": {
+        "mean": 74.58,
+        "sample_std": 0.43405068828421417,
+        "minimum": 74.08,
+        "maximum": 74.86
+      },
+      "train_seconds": {
+        "mean": 43.98073615532909,
+        "sample_std": 0.2407002087134031,
+        "minimum": 43.744715728998926,
+        "maximum": 44.22585797001375
+      },
+      "peak_allocated_gib": {
+        "mean": 0.8862085342407227,
+        "sample_std": 0.0,
+        "minimum": 0.8862085342407227,
+        "maximum": 0.8862085342407227
+      }
+    },
+    "8": {
+      "validation_accuracy_pct": {
+        "mean": 67.82666666666667,
+        "sample_std": 0.6073988255942961,
+        "minimum": 67.32000000000001,
+        "maximum": 68.5
+      },
+      "test_accuracy_pct": {
+        "mean": 67.15666666666667,
+        "sample_std": 0.3323151115031288,
+        "minimum": 66.95,
+        "maximum": 67.54
+      },
+      "train_seconds": {
+        "mean": 27.335257261341514,
+        "sample_std": 0.17075456272317974,
+        "minimum": 27.138114218992996,
+        "maximum": 27.436672429990722
+      },
+      "peak_allocated_gib": {
+        "mean": 0.28221797943115234,
+        "sample_std": 0.0,
+        "minimum": 0.28221797943115234,
+        "maximum": 0.28221797943115234
+      }
+    }
+  },
+  "paired_comparisons": [
+    {
+      "seed": 42,
+      "patch8_minus_patch4_validation_pp": -8.199999999999989,
+      "patch8_minus_patch4_test_pp": -7.88000000000001,
+      "measured_training_speedup": 1.5943885265467566
+    },
+    {
+      "seed": 43,
+      "patch8_minus_patch4_validation_pp": -6.859999999999999,
+      "patch8_minus_patch4_test_pp": -6.539999999999992,
+      "measured_training_speedup": 1.6202907251455383
+    },
+    {
+      "seed": 44,
+      "patch8_minus_patch4_validation_pp": -8.260000000000005,
+      "patch8_minus_patch4_test_pp": -7.849999999999994,
+      "measured_training_speedup": 1.6122591934738375
+    }
+  ],
+  "paired_validation_difference_pp": {
+    "mean": -7.773333333333331,
+    "sample_std": 0.791538586130412,
+    "minimum": -8.260000000000005,
+    "maximum": -6.859999999999999
+  },
+  "limitations": "Three seeds on one fixed split; no statistical-significance claim. Runs used equal sample budgets, not equal compute. Timing came from short separate sessions and may vary with load. Test sets are reporting only, not configuration-selection feedback."
+}

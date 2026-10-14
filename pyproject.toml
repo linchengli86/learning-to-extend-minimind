@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learning-to-extend-minimind"
+version = "0.1.0"
+description = "A compact learning project connecting MiniMind to vision"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.8,<2.9", "transformers==4.57.6", "numpy>=1.26,<3"]
+
+[tool.setuptools.packages.find]
+include = ["minimind_ext*"]
+
+[tool.setuptools.package-data]
+minimind_ext = ["vqa_tables.json"]

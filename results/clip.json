@@ -1,0 +1,241 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "baseline": {
+    "validation": {
+      "image_to_text": {
+        "R@1": 0.7230000495910645,
+        "R@5": 0.9150000214576721,
+        "R@10": 0.9600000381469727
+      },
+      "text_to_image": {
+        "R@1": 0.5455999970436096,
+        "R@5": 0.8167999982833862,
+        "R@10": 0.8912000060081482
+      }
+    },
+    "test": {
+      "image_to_text": {
+        "R@1": 0.7070000171661377,
+        "R@5": 0.9190000295639038,
+        "R@10": 0.9550000429153442
+      },
+      "text_to_image": {
+        "R@1": 0.5383999943733215,
+        "R@5": 0.8064000010490417,
+        "R@10": 0.8894000053405762
+      }
+    }
+  },
+  "runs": [
+    {
+      "seed": 42,
+      "selected_epoch": 9,
+      "validation": {
+        "image_to_text": {
+          "R@1": 0.7860000133514404,
+          "R@5": 0.9410000443458557,
+          "R@10": 0.9750000238418579
+        },
+        "text_to_image": {
+          "R@1": 0.6295999884605408,
+          "R@5": 0.8783999681472778,
+          "R@10": 0.937999963760376
+        }
+      },
+      "test": {
+        "image_to_text": {
+          "R@1": 0.7570000290870667,
+          "R@5": 0.9380000233650208,
+          "R@10": 0.9770000576972961
+        },
+        "text_to_image": {
+          "R@1": 0.6173999905586243,
+          "R@5": 0.8693999648094177,
+          "R@10": 0.9305999875068665
+        }
+      },
+      "total_training_seconds": 0.5747433030046523
+    },
+    {
+      "seed": 43,
+      "selected_epoch": 10,
+      "validation": {
+        "image_to_text": {
+          "R@1": 0.7890000343322754,
+          "R@5": 0.9380000233650208,
+          "R@10": 0.9770000576972961
+        },
+        "text_to_image": {
+          "R@1": 0.6308000087738037,
+          "R@5": 0.8781999945640564,
+          "R@10": 0.9389999508857727
+        }
+      },
+      "test": {
+        "image_to_text": {
+          "R@1": 0.7620000243186951,
+          "R@5": 0.9410000443458557,
+          "R@10": 0.9720000624656677
+        },
+        "text_to_image": {
+          "R@1": 0.614799976348877,
+          "R@5": 0.8671999573707581,
+          "R@10": 0.9301999807357788
+        }
+      },
+      "total_training_seconds": 0.5611239029822173
+    },
+    {
+      "seed": 44,
+      "selected_epoch": 8,
+      "validation": {
+        "image_to_text": {
+          "R@1": 0.7890000343322754,
+          "R@5": 0.937000036239624,
+          "R@10": 0.9790000319480896
+        },
+        "text_to_image": {
+          "R@1": 0.626800000667572,
+          "R@5": 0.8779999613761902,
+          "R@10": 0.9387999773025513
+        }
+      },
+      "test": {
+        "image_to_text": {
+          "R@1": 0.7590000629425049,
+          "R@5": 0.9380000233650208,
+          "R@10": 0.9720000624656677
+        },
+        "text_to_image": {
+          "R@1": 0.6132000088691711,
+          "R@5": 0.8643999695777893,
+          "R@10": 0.9287999868392944
+        }
+      },
+      "total_training_seconds": 0.5581259860191494
+    }
+  ],
+  "groups": {
+    "validation": {
+      "image_to_text": {
+        "R@1": {
+          "mean_pct": 78.80000273386638,
+          "sample_std_pp": 0.17320629208595897,
+          "minimum_pct": 78.60000133514404,
+          "maximum_pct": 78.90000343322754
+        },
+        "R@5": {
+          "mean_pct": 93.86667013168335,
+          "sample_std_pp": 0.20816726041946973,
+          "minimum_pct": 93.7000036239624,
+          "maximum_pct": 94.10000443458557
+        },
+        "R@10": {
+          "mean_pct": 97.70000378290813,
+          "sample_std_pp": 0.20000040531898594,
+          "minimum_pct": 97.50000238418579,
+          "maximum_pct": 97.90000319480896
+        }
+      },
+      "text_to_image": {
+        "R@1": {
+          "mean_pct": 62.90666659673055,
+          "sample_std_pp": 0.20526424125557818,
+          "minimum_pct": 62.6800000667572,
+          "maximum_pct": 63.08000087738037
+        },
+        "R@5": {
+          "mean_pct": 87.81999746958415,
+          "sample_std_pp": 0.02000033862839594,
+          "minimum_pct": 87.79999613761902,
+          "maximum_pct": 87.83999681472778
+        },
+        "R@10": {
+          "mean_pct": 93.85999639829,
+          "sample_std_pp": 0.05291479554607092,
+          "minimum_pct": 93.7999963760376,
+          "maximum_pct": 93.89999508857727
+        }
+      }
+    },
+    "test": {
+      "image_to_text": {
+        "R@1": {
+          "mean_pct": 75.93333721160889,
+          "sample_std_pp": 0.2516606710031021,
+          "minimum_pct": 75.70000290870667,
+          "maximum_pct": 76.2000024318695
+        },
+        "R@5": {
+          "mean_pct": 93.90000303586324,
+          "sample_std_pp": 0.17320629208595897,
+          "minimum_pct": 93.80000233650208,
+          "maximum_pct": 94.10000443458557
+        },
+        "R@10": {
+          "mean_pct": 97.36667275428772,
+          "sample_std_pp": 0.2886748592927512,
+          "minimum_pct": 97.20000624656677,
+          "maximum_pct": 97.70000576972961
+        }
+      },
+      "text_to_image": {
+        "R@1": {
+          "mean_pct": 61.513332525889076,
+          "sample_std_pp": 0.21197411799063914,
+          "minimum_pct": 61.320000886917114,
+          "maximum_pct": 61.73999905586243
+        },
+        "R@5": {
+          "mean_pct": 86.69999639193217,
+          "sample_std_pp": 0.25059900467758844,
+          "minimum_pct": 86.43999695777893,
+          "maximum_pct": 86.93999648094177
+        },
+        "R@10": {
+          "mean_pct": 92.986665169398,
+          "sample_std_pp": 0.09451623079634869,
+          "minimum_pct": 92.87999868392944,
+          "maximum_pct": 93.05999875068665
+        }
+      }
+    }
+  },
+  "test_improvement_over_pretrained": {
+    "image_to_text": {
+      "R@1": {
+        "mean_pp": 5.233335494995117,
+        "all_three_improved": true
+      },
+      "R@5": {
+        "mean_pp": 2.000000079472855,
+        "all_three_improved": true
+      },
+      "R@10": {
+        "mean_pp": 1.866668462753296,
+        "all_three_improved": true
+      }
+    },
+    "text_to_image": {
+      "R@1": {
+        "mean_pp": 7.673333088556923,
+        "all_three_improved": true
+      },
+      "R@5": {
+        "mean_pp": 6.0599962870279995,
+        "all_three_improved": true
+      },
+      "R@10": {
+        "mean_pp": 4.0466646353403775,
+        "all_three_improved": true
+      }
+    }
+  },
+  "standard_deviation": "Sample SD (ddof=1); percentage points, descriptive only.",
+  "checks": "Matched configs except seed/output, source hashes, torch/GPU, pretrained baseline and shared cache fingerprint; complete histories; validation-only epoch selection; full CPU test rechecks performed by runner.",
+  "limitations": "Three seeds, one fixed dataset split, frozen encoder features. Epoch RNG uses seed + epoch index, so random sampling streams partly overlap across runs; do not treat runs as independent statistical samples or claim significance. No hyperparameters were changed using test results. Cache fingerprint was recorded when adding seed43/44; no original training-time cache fingerprint exists for seed42."
+}

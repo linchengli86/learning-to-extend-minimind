@@ -1,0 +1,56 @@
+{
+  "source": "experiments/multimodal/runs/vqa2_baseline/evaluation_stage/summary.json",
+  "source_sha256": "e65a48f76ca5e131f80421153d02579820602f251e31f58563c88f31868f8d3c",
+  "extraction": "Selected fields copied without changing metric values.",
+  "data": {
+    "images": 500,
+    "questions": 1500,
+    "observed_status": "all500 reserved images now historical observations; never fresh again",
+    "optimizer_updates": 0,
+    "references_only_released_after_all_prediction_sets_sealed": true,
+    "results": {
+      "Q0": {
+        "matched": {
+          "NLL": 5.975614897909435,
+          "accuracy_percent": 0.0
+        },
+        "shuffled": {
+          "NLL": 6.074385916878551,
+          "accuracy_percent": 0.0
+        },
+        "zero": {
+          "NLL": 6.035713380668532,
+          "accuracy_percent": 0.0
+        }
+      },
+      "QL1": {
+        "matched": {
+          "NLL": 1.7380674636822486,
+          "accuracy_percent": 30.733333333333334
+        },
+        "shuffled": {
+          "NLL": 1.7915318015889377,
+          "accuracy_percent": 30.659999999999997
+        },
+        "zero": {
+          "NLL": 5.885456987164495,
+          "accuracy_percent": 0.0
+        }
+      },
+      "QP": {
+        "matched": {
+          "NLL": 1.9503817879081724,
+          "accuracy_percent": 31.366666666666664
+        },
+        "shuffled": {
+          "NLL": 1.9983743231902185,
+          "accuracy_percent": 29.893333333333334
+        },
+        "zero": {
+          "NLL": 6.565317376064981,
+          "accuracy_percent": 0.0
+        }
+      }
+    }
+  }
+}

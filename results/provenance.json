@@ -1,0 +1,120 @@
+{
+  "archive": "minimind_summary/archive",
+  "upstream_repository": "https://github.com/jingyaogong/minimind",
+  "upstream_commit": "f659b55761b754d306bd140573493a6543cafd7f",
+  "note": "Paths identify the local source archive; hashes refer to original bytes before curation. Large assets and the full archive are not included.",
+  "sources": {
+    "upstream/model/model_minimind.py": {
+      "sha256": "548f1203282dccb3be43227b11463f469b976afbab614df52828bdd246c3786f",
+      "bytes": 18986
+    },
+    "experiments/vit/model.py": {
+      "sha256": "a88ef8f784ec1fbd57f60cdcac26e2cf71bb7dcda248a905c9e56705a48e6dba",
+      "bytes": 3639
+    },
+    "upstream/LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    "data/vqa2_minimind/reference/LICENSE.txt": {
+      "sha256": "4bf86fe8b104b69fc72caaa095b2fff4bade0d3d9a7970c6a5fd01fb736cad04",
+      "bytes": 1521
+    },
+    "data/vqa2_minimind/reference/revision.json": {
+      "sha256": "84ab33f03d15086b48e35373d0a7cc69d45f8842293a78c2e3e4f10d3e796fca",
+      "bytes": 117
+    },
+    "data/vqa2_minimind/reference/vqaEval_original.py": {
+      "sha256": "f08edfcad5be0112500993e245c706b6cb928eadebe203f89f838e5e0d04bec8",
+      "bytes": 8428
+    },
+    "data/vqa2_minimind/reference/vqaEval_python3.py": {
+      "sha256": "ba95df786a47077b046d9e5715dcfdaa32159c15fb6606b242f13e808e3b6f93",
+      "bytes": 8430
+    },
+    "experiments/clip/loss.py": {
+      "sha256": "277bd1a1be7dab4aa4186b2b8133b0e3bf9a826158283b9d5e7979e5ffe413bb",
+      "bytes": 2127
+    },
+    "experiments/clip/train.py": {
+      "sha256": "3ac3e675779a477476b79c920edcda4db2119ab17f6bdd735adca8c8b00cf0db",
+      "bytes": 9149
+    },
+    "experiments/multimodal/captioner.py": {
+      "sha256": "7ba0a6c15e14f2b5e30621f966843545e43e2235ce42e461d2ef8ed7380ae903",
+      "bytes": 4783
+    },
+    "experiments/multimodal/compression.py": {
+      "sha256": "6facd0386a3168e531d302575f21bfcec3a153998ed094680a613039cfbfa4bc",
+      "bytes": 3942
+    },
+    "experiments/multimodal/learned_compression.py": {
+      "sha256": "9803090e8db135be6c70301fe3b5efca6709b68b2cba4492d5d9d479f36561d7",
+      "bytes": 6770
+    },
+    "experiments/multimodal/vqa_score.py": {
+      "sha256": "83b5ed994ac426038ca7ba494936002275f6c5929ea0b73e48dbbed48e2f37a1",
+      "bytes": 6087
+    },
+    "configs/baseline.json": {
+      "sha256": "de161f065325c466c2c7a62100c656fd8b14fc8589c2c816f63a3c3ea63db52a",
+      "bytes": 562
+    },
+    "upstream/model/tokenizer.json": {
+      "sha256": "71f32c68cf63a15355a8fc171b7594b3d41870fe0ddb54fc6aefa55f73a4a668",
+      "bytes": 451182
+    },
+    "upstream/model/tokenizer_config.json": {
+      "sha256": "d7cd6a60c9f191c4f9ffec69b2eb289ad2f960366724f328b681ae1e46e4c110",
+      "bytes": 13308
+    },
+    "experiments/vit/runs/multiseed_p4_p8/summary.json": {
+      "sha256": "713a787fdf4bfcd4bf458ba946d8f057f1f96843e24918c30c8fe616e31ba146",
+      "bytes": 5050
+    },
+    "experiments/clip/runs/multiseed/summary.json": {
+      "sha256": "88187515b144bf1f414f60f1eda9e6bb93c98fec01add671c80ce390514db9dc",
+      "bytes": 7009
+    },
+    "experiments/multimodal/runs/learned_compression/summary.json": {
+      "sha256": "e33c12f43fb0f5b6954f1e20cea38de9f98e0d3afbfd97bdec76b35f8b65dc30",
+      "bytes": 123102
+    },
+    "experiments/multimodal/runs/vqa2_baseline/evaluation_stage/summary.json": {
+      "sha256": "e65a48f76ca5e131f80421153d02579820602f251e31f58563c88f31868f8d3c",
+      "bytes": 102628
+    },
+    "docs/minimind_phase_review.md": {
+      "sha256": "e5a08adad907013cbdc92f53a19a81cba662e6bd3c7fb6689d1a67dd171f0bff",
+      "bytes": 15747
+    },
+    "docs/multimodal_visual_qa_coverage_results.md": {
+      "sha256": "740f60151289b8c645e89059a95907e82f9f7e2159aa936818b23d9730ae5570",
+      "bytes": 6669
+    },
+    "docs/multimodal_question_gate_results.md": {
+      "sha256": "e030d3646f7bcf7d97826cc8a7c9e71bf55a0f6204b10c86dce89215de18d055",
+      "bytes": 7163
+    },
+    "docs/multimodal_visual_qa_diagnostic_results.md": {
+      "sha256": "03b4ea9fd5141d1d1065060f9f8388732b8d2d8548f55e614d97a54a4fc7a6b7",
+      "bytes": 9561
+    },
+    "docs/multimodal_coco_data_breadth.md": {
+      "sha256": "593886449ec302b6278cbc375c5f2bfeef76d8a5eef7d000fbad888b47aa9ff8",
+      "bytes": 11873
+    },
+    "docs/multimodal_token_compression.md": {
+      "sha256": "de889e116ac2f6b3e097ef9e351b94facdb909b9f039ed8414b3909dd374d83d",
+      "bytes": 16834
+    },
+    "docs/multimodal_learned_compression.md": {
+      "sha256": "8ed5ee14f64992c884152971010fd11fb59faaab8fab36522ca7e19eccf01bbb",
+      "bytes": 21066
+    },
+    "docs/multimodal_object_paired_uncertainty_results.md": {
+      "sha256": "49dc8624891c95e61cefa62137797e3d6ce70829ed5629aa682a0f1ff4ced6e2",
+      "bytes": 11044
+    }
+  }
+}
